@@ -2,17 +2,17 @@
 #include "stringtoolkit.h"
 
 int main() {
-    char str1[] = "Varun Pal";
+    char str1[] = "Varun";
     upper(str1);
     printf("In Uppercase - %s\n", str1);
     
     lower(str1);
     printf("In Lowercase - %s\n", str1);
     
-    char str2[] = "Varun Pal";
+    char str2[] = "Varun";
     printf("Vowerls are - %d\n", count(str2));
     
-    char str3[] = "Varun Pal";
+    char str3[] = "Varun";
     rev(str3);
     printf("In Reversed - %s\n", str3);
     
