@@ -21,7 +21,7 @@ int count(char str[]) {
     int c=0;
     for (int i=0;str[i]!='\0';i++) {
         char v=tolower(str[i]);
-        if (v=='a'||c=='e'||c =='i'||c=='o'||c=='u'){
+        if (v=='a'||v=='e'||v =='i'||v=='o'||v=='u'){
             c++;
         }
     }
